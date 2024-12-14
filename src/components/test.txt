@@ -1,0 +1,393 @@
+      <section className="mb-5">
+        <h2 className="text-primary">Adventure and Activities</h2>
+        <p>
+          Adventure enthusiasts will find plenty to do in Switzerland. From skiing and snowboarding in the Swiss Alps to hiking trails like the Matterhorn and Jungfrau, there’s no shortage of activities. In summer, enjoy paragliding, mountain biking, or exploring the crystal-clear lakes.
+        </p>
+      </section>
+
+      {/* Cultural Insights Section */}
+      <section className="mb-5">
+        <h2 className="text-primary">Cultural Insights</h2>
+        <p>
+          Switzerland boasts a rich cultural tapestry, influenced by its German, French, Italian, and Romansh-speaking regions. Explore museums, art galleries, and traditional festivals that highlight the country’s heritage. Don’t miss the UNESCO-listed Old Town of Bern!
+        </p>
+      </section>
+            {/* Food and Drinks Section */}
+            <section className="mb-5">
+        <h2 className="text-primary">Food and Drinks</h2>
+        <p>
+          Swiss cuisine is a delightful blend of its cultural influences. Indulge in cheese fondue, raclette, and rosti, or enjoy Swiss chocolates and wines. Don’t forget to sample the country’s famous Alpine cheeses.
+        </p>
+      </section>
+
+      {/* Other Destinations Section */}
+      <section className="mb-5">
+        <h2 className="text-primary">Other Destinations</h2>
+        <p>
+          Beyond the Alps, Switzerland offers picturesque towns like Lucerne and Interlaken, as well as the serene beauty of Lake Geneva and Lake Zurich. The Rhine Falls, Europe’s largest waterfall, is another must-see destination.
+        </p>
+      </section> 
+
+      .App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.container {
+  position: relative;
+}
+.card-img-full-height {
+  height: 100%;
+  object-fit: cover;
+}
+.header-image {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+}
+.section-title {
+  position: relative;
+  text-align: center;
+  margin: 40px 0;
+}
+.section-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: blue;
+  z-index: -1;
+}
+.section-title h2 {
+  display: inline-block;
+  background: white;
+  padding: 0 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Londrina+Shadow&family=Slackey&display=swap');
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+      //   <>
+      //   {/* Navigation Bar */}
+      //  <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact'/>
+      //   {/* Slideshow Section */}
+      //   <div id="travelCarousel" className="carousel slide" data-bs-ride="carousel">
+      //     <div className="carousel-inner">
+      //       <div className="carousel-item active">
+      //         <img
+      //           src="/switzerland/switzerland.jpg"
+      //           className="d-block w-100"
+      //           alt="Beach"
+      //           style={{ height: "500px", objectFit: "cover" }}
+      //         />
+      //         <div className="carousel-caption d-none d-md-block">
+      //           <h3>Relax by the Beach</h3>
+      //           <p>Find your perfect paradise getaway.</p>
+      //         </div>
+      //       </div>
+      //       <div className="carousel-item">
+      //         <img
+      //           src="/czech/czech.jpg"
+      //           className="d-block w-100"
+      //           alt="Mountains"
+      //           style={{ height: "500px", objectFit: "cover" }}
+      //         />
+      //         <div className="carousel-caption d-none d-md-block">
+      //           <h3>Explore the Mountains</h3>
+      //           <p>Embark on thrilling adventures.</p>
+      //         </div>
+      //       </div>
+      //       <div className="carousel-item">
+      //         <img
+      //           src="/japan/japan.jpg"
+      //           className="d-block w-100"
+      //           alt="City"
+      //           style={{ height: "500px", objectFit: "cover" }}
+      //         />
+      //         <div className="carousel-caption d-none d-md-block">
+      //           <h3>Discover the City</h3>
+      //           <p>Experience the vibrant urban lifestyle.</p>
+      //         </div>
+      //       </div>
+      //     </div>
+      //     <button
+      //       className="carousel-control-prev"
+      //       type="button"
+      //       data-bs-target="#travelCarousel"
+      //       data-bs-slide="prev"
+      //     >
+      //       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      //       <span className="visually-hidden">Previous</span>
+      //     </button>
+      //     <button
+      //       className="carousel-control-next"
+      //       type="button"
+      //       data-bs-target="#travelCarousel"
+      //       data-bs-slide="next"
+      //     >
+      //       <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      //       <span className="visually-hidden">Next</span>
+      //     </button>
+      //   </div>
+  
+      //   {/* Content Sections */}
+      //   <section id="destinations" className="py-5">
+      //     <div className="container text-center">
+      //       <h2 className="mb-4">Top Destinations</h2>
+      //       <div className="row">
+      //         <div className="col-md-4">
+      //           <img
+      //             src="images/destination1.jpg"
+      //             className="img-fluid rounded"
+      //             alt="Destination 1"
+      //           />
+      //           <h2 className="mt-3">Tropical Paradise</h2>
+      //           <h6>This is part of homepage</h6>
+      //         </div>
+      //         <div className="col-md-4">
+      //           <img
+      //             src="images/destination2.jpg"
+      //             className="img-fluid rounded"
+      //             alt="Destination 2"
+      //           />
+      //           <h2 className="mt-3">Mountain Retreat</h2>
+      //         </div>
+      //         <div className="col-md-4">
+      //           <img
+      //             src="images/destination3.jpg"
+      //             className="img-fluid rounded"
+      //             alt="Destination 3"
+      //           />
+      //           <h2 className="mt-3">Cultural Heritage</h2>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </section>
+  
+      //   <section id="about" className="py-5 bg-light">
+      //     <div className="container text-center">
+      //       <h2>About Us</h2>
+      //       <p className="mt-3">
+      //         We are passionate travelers dedicated to helping you discover the
+      //         best destinations worldwide. Join us to explore the world one
+      //         adventure at a time!
+      //       </p>
+      //     </div>
+      //   </section>
+  
+      //   <section id="contact" className="py-5">
+      //     <div className="container text-center">
+      //       <h2>Contact Us</h2>
+      //       <form className="mt-4">
+      //         <div className="mb-3">
+      //           <input
+      //             type="text"
+      //             className="form-control"
+      //             placeholder="Name"
+      //             required
+      //           />
+      //         </div>
+      //         <div className="mb-3">
+      //           <input
+      //             type="email"
+      //             className="form-control"
+      //             placeholder="Email"
+      //             required
+      //           />
+      //         </div>
+      //         <div className="mb-3">
+      //           <textarea
+      //             className="form-control"
+      //             rows={4}
+      //             placeholder="Message"
+      //             required
+      //           ></textarea>
+      //         </div>
+      //         <button type="submit" className="btn btn-primary">
+      //           Send Message
+      //         </button>
+      //       </form>
+      //     </div>
+      //   </section>
+  
+      //   <footer className="bg-dark text-white text-center py-3">
+      //     <p>&copy; 2023 Travel Blog. All rights reserved.</p>
+      //   </footer>
+      // </>
+
+
+      //amins 
+
+       {/* <header>
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src="images/719326.jpg" className="d-block w-100 cimg" alt="..." height="500px" /> 
+                <div className="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                  <h1>Uptrip</h1>
+                  <p> Elevate Your Journey, Enrich Your World.</p>
+                  <button className="btn btn-primary" style={{width: "200px", backgroundColor:"#ffdc3e", borderColor:"#ffdc3e",color: "black;"}}>Explore</button>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src="images/pexels-photo-1483053.jpeg" className="d-block w-100 cimg" alt="..." height="500px" />
+                <div className="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                  <h1>Uptrip</h1>
+                  <p> Elevate Your Journey, Enrich Your World.</p>
+                  <button className="btn btn-primary" style={{width: "200px", backgroundColor: "#48d4ff", borderColor: "#48d4ff", color: "black;"}}>Explore</button>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img src="images/wallpaperflare.com_wallpaper.jpg" className="d-block w-100 cimg" alt="..." height="500px" />
+                <div className="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                  <h1>Uptrip</h1>
+                  <p> Elevate Your Journey, Enrich Your World.</p>
+                  <button className="btn btn-primary" style={{width: "200px", backgroundColor: "#ffdc3e", borderColor: "#ffdc3e", color: "black;"}}>Explore</button>
+                </div>
+              </div>
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <section id="section1" className="container my-4 d-flex justify-content-center">
+        <div className="row justify-content-center" style={{paddingTop: "20px;"}}>
+            <div className="col-4">
+                <img src="images/us.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+            </div>
+            <div className="col-1"></div>
+
+            <div className="col-4">
+                {/* <p><b>About us!</b><br>We are four adventurus 2nd year COMBUS students that have a diverse background and have visited numerous locations, here to provide you with some great insights which may influence your next trip decision!</br></p> */}
+            {/* </div>
+          </div>
+        </section>
+
+
+
+        
+    <div className="container"  style={{paddingTop: "50px;"}}>
+      <h3 style={{paddingLeft: "13%;"}}>Destinations</h3>
+  <section id="section2" className="container my-4 d-flex justify-content-center">
+    <div className="row justify-content-center">
+        <div className="col-4">
+          {/* <p><b>Japan</b><br>Japan is a mesmerizing blend of ancient traditions and cutting-edge modernity. From serene temples in Kyoto to neon-lit Tokyo streets, it offers stunning landscapes, exquisite cuisine, and warm hospitality. Cherry blossoms, bustling markets, and rich history make it a must-visit destination for any traveler seeking culture and adventure.</br></p> */}
+        </div>
+        <div className="col-1"></div>
+        <div className="col-4">
+          <img src="images/jpico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+      </div>
+      <div className="row justify-content-center" style={{paddingTop: "50px;"}}>
+        <div className="col-12 col-md-6 d-flex flex-column flex-md-row justify-content-center">
+          <p className="mb-2 mb-md-0">Look for:&nbsp;&nbsp;&nbsp;</p>
+            <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/czflag.png'); background-size: cover; color: rgb(0, 0, 0);"}}><b>Czech</b></button>
+            <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/swit.png'); background-size: cover; color: rgb(0, 0, 0);"}}><b>Switzerland</b></button>
+            <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/Flag_of_Maldives.svg\ \(1\).png'); background-size: cover; color: rgb(0, 0, 0);"}}><b>Maldives</b></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+
+<div className="container"  style={{paddingTop: "50px;"}}>
+  <h3 style={{paddingLeft: "13%;"}}>Categories</h3>
+<section id="section2" className="container my-4 d-flex justify-content-center">
+  <div className="row justify-content-center">
+    <div className="col-4">
+      <img src="images/czechico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+  </div>
+    <div className="col-4">
+      {/* <p><b>Food & Drinks</b><br>Czech cuisine is hearty and flavorful, featuring dishes like tender roast pork, creamy svíčková, and crispy fried cheese. Pair them with world-famous Czech beers like Pilsner and Budvar or sip on Becherovka, a traditional herbal liqueur. From rustic pubs to Prague’s cafes, every bite offers authentic local charm. </br></p> */}
+    </div>
+    <div className="row justify-content-center" style={{paddingTop: "50px;"}}>
+      <div className="col-12 col-md-6 d-flex flex-column flex-md-row justify-content-center">
+        <p className="mb-2 mb-md-0">Look for:&nbsp;&nbsp;&nbsp;</p>
+        <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/earth-day-and-world-environment-day-spring-beautiful-natural-verdant-green-forest-in-summer-generate-ai-free-photo.png'); background-size: cover; color: rgb(0, 0, 0);"}}><b>Adventure & Hikes</b></button>
+        <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/diwal.png'); background-size: cover; color: rgb(0, 0, 0);"}}><b>Culture Insights</b></button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div className="container-fluid" style={{marginTop: "75px", paddingTop: "50px", paddingBottom: "50px",  backgroundColor: "rgba(0, 0, 0, 0.856);"}}>
+  <h3 className="text-center" style={{color: "white;"}}>Sign Up for Our Newsletter</h3>
+  <section id="newsletter" className="container my-4 d-flex justify-content-center">
+    <div className="row justify-content-center">
+      <div className="col-6">
+        <form className="d-flex justify-content-center">
+          <input type="email" className="form-control me-2" id="email" placeholder="Enter your email" style={{width: "600px;"}} />
+          <button type="submit" className="btn btn-primary" style={{width: "200px;"}}>Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"></script> */} */}

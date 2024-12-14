@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Login} from "./components/Login";
+import {Home} from "./components/Home";
+import {Destination} from "./components/Destination";
+import { Switzerland } from './components/Switzerland';
+import {Japan} from "./components/Japan";
+import {Maldives} from "./components/Maldives";
+import {Czech} from "./components/Czech";
+import { Gallery } from './components/Gallery';
+import { About } from './components/About';
+import { Contact } from './components/Contact';
+import {Categories, Food} from "./components/Categories";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/destinations" element={<Destination countryName={["Switzerland", "Czech", "Japan", "Maldives"]}/>} />
+        <Route path="/destinations/switzerland" element={<Switzerland />} />
+        <Route path="/destinations/japan" element={<Japan/>} />
+        <Route path="/destinations/czech" element={<Czech />} />
+        <Route path="/destinations/maldives" element={<Maldives />} />
+        <Route path="/categories" element={<Categories />} />
+        <Route path="/categories/food" element={<Food />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
-}
+};
+
 
 export default App;

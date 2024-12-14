@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-item img{
+  object-fit: cover;
+}
+.cimg{
+  filter: brightness(50%);
+}
+.carousel-caption {
+  text-align: center;
+}
+.btn-rounded {
+  border-radius: 50px;
+}
