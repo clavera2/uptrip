@@ -1,15 +1,15 @@
 import React from "react";
 import {NavBar} from "./NavBar";
 import {Link} from "react-router-dom";
-
+import "./categorystyle.css";
 // Category page component.
 export function Categories() {
     return (
         <>
             <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact'/>
   <div className="container my-4">
-    <input type="text" id="searchInput" className="form-control mb-3" placeholder="Search cards..." />
-    <div className="d-flex justify-content-between">
+    <input type="text" id="searchInput" className="form-control mb-3 searchCards" placeholder="Search cards..." />
+    <div className="d-flex justify-content-between formCard">
       <select className="form-select" aria-label="Sort by A-Z">
         <option selected>Sort by A-Z</option>
         <option value="1">A-Z</option>
@@ -29,17 +29,17 @@ export function Categories() {
     </div>
     <div className="row">
       <div className="col-sm-4">
-        <div className="card mb-3" style={{maxWidth: "540px"}}>
+        <div className="card mb-3" style={{maxWidth: "540px", borderRadius: "25px"}}>
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="/japan/ramen.jpg" className="img-fluid rounded-start card-img-full-height" alt="..." />
+              <img src="/japan/ramen.jpg" className="img-fluid rounded-start card-img-full-height card-edge" alt="Ramen" />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Ramen</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+                <h5 className="card-title">Japan's finest Ramen</h5>
+                <p className="card-text">Ramen is a popular Japanese noodle soup known for its rich and flavorful broth. You cannot go to Japan without trying.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Explore Japan</a>
               </div>
             </div>
           </div>
@@ -53,10 +53,10 @@ export function Categories() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Cordon</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 className="card-title">Cordon Bleu</h5>
+                <p className="card-text">Cordon Bleu is a classic Swiss dish made of meat wrapped around cheese, then breaded and pan-fried or deep-fried.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Explore Switzerland</a>
               </div>
             </div>
           </div>
@@ -71,9 +71,9 @@ export function Categories() {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Goulash</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p className="card-text">Goulash is a hearty stew of meat and vegetables seasoned with paprika and other spices. It is a popular dish in Czech cuisine.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Explore Czech</a>
               </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ export function Categories() {
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Explore Staromestske Namesti</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+                <p className="card-text">Staromestske Namesti, or Old Town Square, is a historic square in Prague known for its architecture and vibrant atmosphere.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ export function Categories() {
                 <h5 className="card-title">Relax in tropical Maldives</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ export function Categories() {
                 <h5 className="card-title">Explore Mt.Fuji</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ export function Categories() {
                 <h5 className="card-title">Bodu Beru</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ export function Categories() {
                 <h5 className="card-title">Origami</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@ export function Categories() {
                 <h5 className="card-title">Heidi</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="#" className="btn btn-primary go-button">Go somewhere</a>
               </div>
             </div>
           </div>
