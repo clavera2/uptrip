@@ -162,8 +162,12 @@ export const NavBar = (navProp: NavBarProps) => {
               </Link>
             </li>
           </ul>
+          <Link to="/login">
           <Button text="Log in" NotHighLighted={true} />
+          </Link>
+          <Link to="/signup">
           <Button text="Sign Up" />
+          </Link>
         </div>
       </div>
     </nav>

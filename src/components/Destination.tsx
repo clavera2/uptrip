@@ -79,9 +79,6 @@ export function Destination(destProp: destinationProp) {
     return (
         <>
         <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact'/>
-        {/* <Region RegionName='Europe' cardProp={[{CardTitle: "Czech", description:"Czechia is a land steeped in history, known for its fairytale-like castles, medieval towns, and world-famous beer.Prague, the capital, is celebrated for its Gothic architecture, including the iconic Charles Bridge and Prague Castle", image: "./switzerland/switzerland.jpg", date: new Date()}, {CardTitle: "Switzerland", description:"Switzerland is renowned for its breathtaking Alpine landscapes, charming villages, and pristine lakes. It’s famous for its precision-made watches, delectable chocolate, and thriving banking industry.", image: "./switzerland/switzerland.jpg", date: new Date()}]} />
-        <Region RegionName='Asia' cardProp={[{CardTitle: "Japan", description:"W country overall", image: "./japan/japan.jpg", date: new Date()},{CardTitle: "Maldives", description:"test", image: "test", date: new Date()}]} /> */}
-        <header className="bg-light py-5 position-relative">
     <div className="container-fluid p-0">
       <img src="/images/destination.jpg" className="img-fluid header-image" alt="Header Image" />
       <div className="overlay-text">
@@ -89,7 +86,6 @@ export function Destination(destProp: destinationProp) {
         <div>Explore the different locations now!</div>
       </div>
     </div>
-  </header>
 
   <div className="container my-4">
     <input type="text" id="searchInput" className="form-control mb-3" placeholder="Search cards..." />
@@ -124,7 +120,7 @@ export function Destination(destProp: destinationProp) {
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 <Link to={`/destinations/${destProp.countryName[0]}`}>
-                <button className="btn btn-primary">Go to {destProp.countryName[0]}</button>
+                <button className="btn btn-primary">Explore {destProp.countryName[0]}</button>
                     </Link>
               </div>
             </div>
@@ -143,7 +139,7 @@ export function Destination(destProp: destinationProp) {
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 <Link to={`/destinations/${destProp.countryName[1]}`}>
-                <button className="btn btn-primary">Go to {destProp.countryName[1]}</button>
+                <button className="btn btn-primary">Explore {destProp.countryName[1]}</button>
                     </Link>
               </div>
             </div>
@@ -170,7 +166,7 @@ export function Destination(destProp: destinationProp) {
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 <Link to={`/destinations/${destProp.countryName[2]}`}>
-                <button className="btn btn-primary">Go to {destProp.countryName[2]}</button>
+                <button className="btn btn-primary">Explore {destProp.countryName[2]}</button>
                     </Link>
               </div>
             </div>
@@ -189,7 +185,7 @@ export function Destination(destProp: destinationProp) {
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 <Link to={`/destinations/${destProp.countryName[3]}`}>
-                <button className="btn btn-primary">Go to {destProp.countryName[3]}</button>
+                <button className="btn btn-primary">Explore {destProp.countryName[3]}</button>
                     </Link>
               </div>
             </div>

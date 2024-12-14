@@ -118,7 +118,7 @@ export function Home() {
 <section id="section2" className="container my-4 d-flex justify-content-center">
   <div className="row justify-content-center">
     <div className="col-4">
-      <img src="images/czechico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+      <img src="/images/czechico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
   </div>
     <div className="col-4">
     <p><b>Food & Drinks</b>: Czech cuisine is hearty and flavorful, featuring dishes like tender roast pork, creamy svíčková, and crispy fried cheese. Pair them with world-famous Czech beers like Pilsner and Budvar or sip on Becherovka, a traditional herbal liqueur. From rustic pubs to Prague’s cafes, every bite offers authentic local charm. </p>
@@ -144,7 +144,7 @@ export function Home() {
       <div className="col-6">
         <form className="d-flex justify-content-center">
           <input type="email" className="form-control me-2" id="email" placeholder="Enter your email" style={{width: "600px"}} />
-          <button type="submit" className="btn btn-primary" style={{width: "200px"}}>Subscribe</button>
+          <button type="submit" className="btn btn-primary" style={{width: "200px"}} onClick={thanks}>Subscribe</button>
         </form>
       </div>
     </div>
@@ -156,4 +156,8 @@ export function Home() {
 
       </>
     )
+}
+
+function thanks() {
+  window.alert("Thank you for signing up for our Newsletter!!!");
 }

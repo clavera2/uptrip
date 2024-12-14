@@ -34,7 +34,7 @@ Additionally, Switzerland has a deep appreciation for nature, which is reflected
           foodName2="Fondue"
           foodDescription2="Fondue in Switzerland may seem clichéd, but it is indelibly woven into the country’s fabric. For centuries, Swiss living in the mountains relied on fondue as a way to use bread and cheese during colder months."
           foodImage2="/switzerland/fondue.jpeg"
-          getInspiredImages={["/switzerland/switzerland.jpg","/switzerland/switzerland.jpg","/switzerland/switzerland.jpg"]}
+          getInspiredImages={["/switzerland/city.jpg","/switzerland/countryside.jpg","/switzerland/swissbackground.jpg"]}
           exploreCountriesText={["Maldives", "Japan", "Czech"]}
           exporeCountriesImage={["/maldives/maldivesslideshow.jpg", "/japan/japan.jpg", "/czech/czech.jpg"]}
         />

@@ -34,6 +34,8 @@ interface CountryProp {
     exporeCountriesImage: [string,string,string];
 }
 
+//THE BASE COMPONENT FOR ALL DESTINATION COMPONENT
+
 export function Country(countryProp: CountryProp) {
     return (
         <>
@@ -71,9 +73,6 @@ export function Country(countryProp: CountryProp) {
                     <div className="carousel-item">
                     <img src={countryProp.slideshowImages[2]} style={{borderRadius: "25px;"}} className="d-block w-100" alt="Temple of Japan 2" />
                 </div>
-                {/* <div className="carousel-item">
-                    <img src={countryProp.slideshowImages[3]} style={{borderRadius: "25px;"}} className="d-block w-100" alt="Streets of Tokyo" />
-                </div> */}
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -243,7 +242,7 @@ export function Country(countryProp: CountryProp) {
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossOrigin="anonymous"></script>
+{/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossOrigin="anonymous"></script> */}
 
         </>
     );

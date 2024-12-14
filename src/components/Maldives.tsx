@@ -21,7 +21,7 @@ export function Maldives() {
                       quoter="Michael Palin"
                       adventureImage="/maldives/maldivesculture.jpg"
                       culturalInsight="Maldivian culture is a blend of South Asian, Arab, and African influences, shaped by its history of trade and Islamic heritage. The Maldives' official religion is Islam, which plays a central role in daily life, with many customs and traditions revolving around Islamic practices and festivals. The Maldivian language, Dhivehi, is derived from Indo-Aryan roots, and traditional music, dance, and crafts, such as bodu beru drumming and lacquer work, reflect the island's rich cultural history. The Maldives also has a strong oral tradition, with stories passed down through generations, often centered around the sea, which is integral to the nation's way of life and identity."
-                      activityImages={["/maldives/activity1.jpg","/switzerland/swissmountain.jpg","/switzerland/museum.jpg"]}
+                      activityImages={["/maldives/slideshow3.jpg","/maldives/activity1.jpg","/maldives/activity2.jpg"]}
                       activityText={["Explore the Rhine falls","Take a hike on the Matterhorn mountain","Visit the Swiss museum"]}
                       foodName1="Boshi Mashuni (Banana Flower Salad)"
                       foodDescription1="Boshi Mashuni, or Banana Flower Salad, is a traditional Maldivian dish made from the tender petals of the banana flower. This refreshing salad typically includes ingredients like grated coconut, onions, chilies, and lime, offering a delightful combination of textures and flavors."
@@ -29,7 +29,7 @@ export function Maldives() {
                       foodName2="Saagu Bondibai"
                       foodDescription2="Saagu Bondibai, or Sago Pudding, is a popular dessert in the Maldives made from sago pearls, a starchy substance derived from palm trees. The dish is typically prepared by cooking the sago with coconut milk, sugar, and cardamom, creating a creamy, sweet pudding with a slightly chewy texture. Often served chilled, Saagu Bondibai is a beloved treat in Maldivian households, especially during special occasions and festive gatherings."
                       foodImage2="/maldives/maldivesfood2.jpg"
-                      getInspiredImages={["/switzerland/switzerland.jpg","/switzerland/switzerland.jpg","/switzerland/switzerland.jpg"]}
+                      getInspiredImages={["/maldives/activity3.jpg","/maldives/activity1.jpg","/maldives/activity2.jpg"]}
                       exploreCountriesText={["Switzerland", "Japan", "Czech"]}
                       exporeCountriesImage={["/switzerland/switzerland.jpg", "/japan/japan.jpg", "/czech/czech.jpg"]}
                     />   
