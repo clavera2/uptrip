@@ -1,6 +1,7 @@
 .titleClass {
     position: relative;
 }
+
 .titleBackground {
     position: absolute;
     width: 100%;
@@ -21,7 +22,7 @@
 }
 
 .titleText {
-    color:#FBFBFC;
+    color: #FBFBFC;
     margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%;
@@ -51,6 +52,7 @@ body span {
     font-size: 14px;
     display: inline-block;
 }
+
 /* slideshow styling done internally */
 /* end of title */
 
@@ -67,6 +69,7 @@ body span {
     border-radius: 25px;
     padding: 1%;
 }
+
 /* end of introduction content */
 
 /* facts about japan */
@@ -96,6 +99,7 @@ body span {
 .overviewText ul {
     padding-top: 3%;
 }
+
 /* end of facts about japan */
 
 .quote {
@@ -113,11 +117,13 @@ body span {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .adventuresContent img {
     width: 55%;
     height: auto;
     object-fit: cover;
-    border-top-left-radius: 25px; /*-- rounded corner on the left side only --*/
+    border-top-left-radius: 25px;
+    /*-- rounded corner on the left side only --*/
     border-bottom-left-radius: 25px;
 }
 
@@ -133,10 +139,11 @@ body span {
     color: #FBFBFC;
 }
 
-.activitiesContent{
+.activitiesContent {
     margin-top: 5%;
     margin-left: 5%;
 }
+
 .activitiesGallery {
     display: flex;
     margin-top: 5%;
@@ -173,6 +180,7 @@ body span {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+
 .ramenContent img {
     width: 35%;
     height: auto;
@@ -183,6 +191,7 @@ body span {
 .ramenText h3 {
     margin-top: 5%;
 }
+
 .ramenText {
     margin-left: 5%;
     margin-right: 5%;
@@ -197,19 +206,23 @@ body span {
     margin-left: 5%;
     margin-right: 5%;
     border-top-left-radius: 0px;
-    border-top-right-radius: 0px; /*to merge with no rounding in between */
+    border-top-right-radius: 0px;
+    /*to merge with no rounding in between */
 }
+
 .sushiContent img {
     width: 65%;
     height: auto;
     object-fit: cover;
-    border-bottom-left-radius: 25px; /*-- rounded corner on the left side only --*/
+    border-bottom-left-radius: 25px;
+    /*-- rounded corner on the left side only --*/
     border-top-left-radius: 25px;
 }
 
 .sushiText h3 {
     margin-top: 5%;
 }
+
 .sushiText {
     margin-left: 5%;
     margin-right: 5%;
@@ -227,6 +240,7 @@ body span {
     text-align: center;
 
 }
+
 #japanGallery .carousel {
     display: flex;
     overflow: hidden;
@@ -234,12 +248,14 @@ body span {
     margin: 0 auto;
     margin-top: 3%;
     border-radius: 15px;
-    height: 600px; /* Fixed height for all pictures */
+    height: 600px;
+    /* Fixed height for all pictures */
 }
 
 #japanGallert .carousel img {
     width: 100%;
-    height: 100%; /* Ensures all images fit within the fixed height */
+    height: 100%;
+    /* Ensures all images fit within the fixed height */
     object-fit: cover;
     transition: transform 0.5s ease;
 }
@@ -254,6 +270,7 @@ body span {
 .otherDestinationsTitle {
     margin: 3%;
 }
+
 .otherDestinationsGallery {
     display: flex;
     flex-direction: row;
@@ -262,7 +279,8 @@ body span {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    overflow-x: auto;
+    /* Allows horizontal scrolling if needed */
 }
 
 .otherDestination {
@@ -271,20 +289,24 @@ body span {
     width: 30%;
     overflow: hidden;
     color: #FBFBFC;
-    margin-right: 5%; /* Add margin-right to create space between columns */
-    flex-shrink: 0; /* Prevents shrinking when overflowing */
+    margin-right: 5%;
+    /* Add margin-right to create space between columns */
+    flex-shrink: 0;
+    /* Prevents shrinking when overflowing */
 }
 
 .otherDestination img {
     width: 100%;
-    height: 60%; /* Increased image height */
+    height: 60%;
+    /* Increased image height */
     object-fit: cover;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .otherDestination p {
-    padding: 5px; /* Reduced padding */
+    padding: 5px;
+    /* Reduced padding */
     margin: 2%;
 }
 
@@ -308,15 +330,18 @@ body span {
 }
 
 /*HOMEPAGE DESIGN*/
-.carousel-item img{
+.carousel-item img {
     object-fit: cover;
 }
-.cimg{
+
+.cimg {
     filter: brightness(50%);
 }
+
 .carousel-caption {
     text-align: center;
 }
+
 .btn-rounded {
     border-radius: 50px;
 }
@@ -329,45 +354,48 @@ body span {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  }
-  .container {
+}
+
+.container {
     position: relative;
-  }
-  .card-img-full-height {
+}
+
+.card-img-full-height {
     height: 100%;
     object-fit: cover;
-  }
-  .header-image {
+}
+
+.header-image {
     width: 100vw;
     height: 500px;
     object-fit: cover;
-  }
-  .section-title {
+}
+
+.section-title {
     position: relative;
     text-align: center;
     margin: 40px 0;
-  }
-  .section-title::before {
+}
+
+.section-title::before {
     content: '';
     position: absolute;
     top: 50%;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: blue;
+    background-color: #605856;
     z-index: -1;
-  }
-  .section-title h2 {
+}
+
+.section-title h2 {
     display: inline-block;
     background: white;
     padding: 0 10px;
-  }
-  .btn25round {
-    border-radius: 25px;
-  }
+}
 
 /* kensho changes categories */
-  .searchCards {
+.searchCards {
     border-radius: 25px;
 }
 
@@ -385,6 +413,13 @@ body span {
     background-color: #00A94F;
 }
 
-.col-md-8 {
+.btn25round {
     border-radius: 25px;
+}
+
+/* kensho food n drink changes */
+.foodndrinkTitle {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
