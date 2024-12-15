@@ -109,10 +109,10 @@ export function Destination(destProp: destinationProp) {
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/switzerland/switzerland.jpg" className="img-fluid rounded-start card-img-full-height" alt="Switzwerland landscape" />
+                  <img src="/switzerland/switzerland.jpg" className="img-fluid card-img-full-height cimagebox" alt="Switzwerland landscape" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -128,10 +128,10 @@ export function Destination(destProp: destinationProp) {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/czech/imageczech/czechvillage.jpg" className="img-fluid rounded-start card-img-full-height" alt="Czech city" />
+                  <img src="/czech/imageczech/czechvillage.jpg" className="img-fluid card-img-full-height cimagebox" alt="Czech city" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -155,10 +155,10 @@ export function Destination(destProp: destinationProp) {
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/japan/japan1.jpg" className="img-fluid rounded-start card-img-full-height" alt="Maldives image" />
+                  <img src="/japan/japan1.jpg" className="img-fluid card-img-full-height cimagebox" alt="Maldives image" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -174,10 +174,10 @@ export function Destination(destProp: destinationProp) {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/maldives/slideshow2.jpg" className="img-fluid rounded-start card-img-full-height" alt="Japan" />
+                  <img src="/maldives/slideshow2.jpg" className="img-fluid card-img-full-height cimagebox" alt="Japan" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
