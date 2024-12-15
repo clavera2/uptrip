@@ -31,7 +31,7 @@ export function Categories() {
             <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/japan/ramen.jpg" className="img-fluid rounded-start card-img-full-height card-edge" alt="Ramen" />
+                  <img src="/japan/ramen.jpg" className="img-fluid card-img-full-height cimagebox" alt="Ramen" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -45,10 +45,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/switzerland/cordon.jpeg" className="img-fluid rounded-start card-img-full-height" alt="Cordon Bleu" />
+                  <img src="/switzerland/cordon.jpeg" className="img-fluid card-img-full-height cimagebox" alt="Cordon Bleu" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -62,10 +62,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/czech/imageczech/czech_goulash.jpg" className="img-fluid rounded-start card-img-full-height" alt="Goulash" />
+                  <img src="/czech/imageczech/czech_goulash.jpg" className="img-fluid card-img-full-height cimagebox" alt="Goulash" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -88,10 +88,10 @@ export function Categories() {
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/czech/imageczech/Czech_Staromestske_namesti.jpg" className="img-fluid rounded-start card-img-full-height" alt="Staromestske Namesti" />
+                  <img src="/czech/imageczech/Czech_Staromestske_namesti.jpg" className="img-fluid card-img-full-height cimagebox" alt="Staromestske Namesti" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -105,10 +105,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/maldives/maldivesslideshow.jpg" className="img-fluid rounded-start card-img-full-height" alt="tropical Maldives" />
+                  <img src="/maldives/maldivesslideshow.jpg" className="img-fluid card-img-full-height cimagebox" alt="tropical Maldives" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -122,10 +122,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/japan/mtfuji.webp" className="img-fluid rounded-start card-img-full-height" alt="Mt.Fuji" />
+                  <img src="/japan/mtfuji.webp" className="img-fluid card-img-full-height cimagebox" alt="Mt.Fuji" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -147,10 +147,10 @@ export function Categories() {
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/maldives/maldivesculture.jpg" className="img-fluid rounded-start card-img-full-height" alt="Bodu Beru" />
+                  <img src="/maldives/maldivesculture.jpg" className="img-fluid card-img-full-height cimagebox" alt="Bodu Beru" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -164,10 +164,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/japan/calligraphy.jpg" className="img-fluid rounded-start card-img-full-height" alt="Origami" />
+                  <img src="/japan/calligraphy.jpg" className="img-fluid card-img-full-height cimagebox" alt="Origami" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -181,10 +181,10 @@ export function Categories() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="card mb-3" style={{ maxWidth: "540px" }}>
+            <div className="card mb-3" style={{ maxWidth: "540px", borderRadius: "25px" }}>
               <div className="row g-0">
                 <div className="col-md-4">
-                  <img src="/switzerland/swissfall.jpg" className="img-fluid rounded-start card-img-full-height" alt="Origami" />
+                  <img src="/switzerland/swissfall.jpg" className="img-fluid card-img-full-height cimagebox" alt="Origami" />
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
