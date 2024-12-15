@@ -275,18 +275,22 @@ export function Activities(actProp: ActivityProp) {
   return (
     <>
       <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact' />
-
+      <div className="foodndrinkTitle">
+        <h2>Food & Drink</h2>
+        <p>Immerse yourself with the best food and drink around the world during our backpacking days. Our mission is to share these culinary delights with you, bringing a taste of global cuisine to your fingertips.
+        </p>
+      </div>
       {
         actProp.list.map((item) => {
           return (
-            <div className="card text-white bg-dark mb-3" style={{ borderRadius: '12px' }}>
+            <div className="card text-white bg-dark mb-3" style={{ borderRadius: '25px', margin: '5%', border: 'none' }}>
               <div className="row g-0">
                 <div className="col-md-5 d-flex align-items-center justify-content-center">
                   <img
                     src={item.Image}
                     alt="Cultural Insight"
                     className="img-fluid"
-                    style={{ borderRadius: '12px 0 0 12px', objectFit: 'cover' }}
+                    style={{ borderRadius: '25px 0 0 25px', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="col-md-7">
@@ -295,8 +299,8 @@ export function Activities(actProp: ActivityProp) {
                     </div>
                     <h4 className="card-title">{item.Name}</h4>
                     <p className="card-text">{item.Description}</p>
-                    <Link to={`/destinations/${item.Country.toLowerCase()}`}>
-                      {`Learn more about ${item.Country}`}
+                    <Link to={`/destinations/${item.Country.toLowerCase()}`} className="btn btn-primary go-button">
+                      {`Explore ${item.Country}`}
                     </Link>
                   </div>
                 </div>
@@ -315,18 +319,22 @@ export function Culture(cultureProp: CultureProp) {
   return (
     <>
       <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact' />
-
+      <div className="foodndrinkTitle">
+        <h2>Food & Drink</h2>
+        <p>Immerse yourself with the best food and drink around the world during our backpacking days. Our mission is to share these culinary delights with you, bringing a taste of global cuisine to your fingertips.
+        </p>
+      </div>
       {
         cultureProp.list.map((item) => {
           return (
-            <div className="card text-white bg-dark mb-3" style={{ borderRadius: '12px' }}>
+            <div className="card text-white bg-dark mb-3" style={{ borderRadius: '25px', margin: '5%', border: 'none' }}>
               <div className="row g-0">
                 <div className="col-md-5 d-flex align-items-center justify-content-center">
                   <img
                     src={item.Image}
                     alt="Cultural Insight"
                     className="img-fluid"
-                    style={{ borderRadius: '12px 0 0 12px', objectFit: 'cover' }}
+                    style={{ borderRadius: '25px 0 0 25px', objectFit: 'cover' }}
                   />
                 </div>
                 <div className="col-md-7">
@@ -335,8 +343,8 @@ export function Culture(cultureProp: CultureProp) {
                     </div>
                     <h4 className="card-title">{item.Name}</h4>
                     <p className="card-text">{item.Description}</p>
-                    <Link to={`/destinations/${item.Country.toLowerCase()}`}>
-                      {`Learn more about ${item.Country}`}
+                    <Link to={`/destinations/${item.Country.toLowerCase()}`} className="btn btn-primary go-button">
+                      {`Explore ${item.Country}`}
                     </Link>
                   </div>
                 </div>
