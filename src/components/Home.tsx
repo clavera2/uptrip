@@ -98,14 +98,14 @@ export function Home() {
             </div>
             <div className="col-1"></div>
             <div className="col-4">
-              <img src="/images/jpico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+              <img src="/images/jpico.jpeg" className="img-fluid" alt="Japan overview" width="300px" height="300px" />
             </div>
             <div className="row justify-content-center" style={{ paddingTop: "50px" }}>
               <div className="col-12 col-md-6 d-flex flex-column flex-md-row justify-content-center">
                 <p className="mb-2 mb-md-0">Look for:&nbsp;&nbsp;&nbsp;</p>
                 <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{ backgroundColor: "white", borderColor: "black", backgroundImage: "url('/images/czflag.png')", backgroundSize: "cover", color: "rgb(0, 0, 0)" }}><b>Czech</b></button>
                 <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{ backgroundColor: "white", borderColor: "black", backgroundImage: "url('/images/swit.png')", backgroundSize: "cover", color: "rgb(0, 0, 0)" }}><b>Switzerland</b></button>
-                <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{ backgroundColor: "white", borderColor: "black", backgroundImage: "url('/images/Flag_of_Maldivess.png')", backgroundSize: "cover", color: "rgb(0, 0, 0)" }}><b>Maldives</b></button>
+                <button className="btn btn-primary btn-rounded mb-2 mb-md-0 me-md-2" style={{ backgroundColor: "white", borderColor: "black", backgroundImage: "url('images/Flag_of_Maldives.svg (1).png')", backgroundSize: "cover", color: "rgb(0, 0, 0)" }}><b>Maldives</b></button>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export function Home() {
         <section id="section2" className="container my-4 d-flex justify-content-center">
           <div className="row justify-content-center">
             <div className="col-4">
-              <img src="/images/czechico.jpeg" className="img-fluid" alt="Red Panda With a big smile." width="300px" height="300px" />
+              <img src="/images/czechico.jpeg" className="img-fluid" alt="Czech food hoska" width="300px" height="300px" />
             </div>
             <div className="col-4">
               <p><b>Food & Drinks</b><br /> Czech cuisine is hearty and flavorful, featuring dishes like tender roast pork, creamy svíčková, and crispy fried cheese. Pair them with world-famous Czech beers like Pilsner and Budvar or sip on Becherovka, a traditional herbal liqueur. From rustic pubs to Prague’s cafes, every bite offers authentic local charm. </p>
