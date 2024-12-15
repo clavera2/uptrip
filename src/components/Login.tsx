@@ -30,7 +30,7 @@ export const Login = () => {
         <NavBar heading1='Home' heading2='Destinations' heading3='Categories' heading4='Gallery' heading5='About us' heading6='Contact'/>
         <div className="login-container">
         <div className="login-box">
-            <h1>Welcome Back</h1>
+            <h3>Welcome Back, <br />UpTripper!</h3>
             {error && <div className="error-message">{error}</div>} {/* Show error if it exists */}
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -61,13 +61,16 @@ export const Login = () => {
                             className="form-check-input"
                             id="Check1"
                         />
-                        <label className="form-check-label" htmlFor="Check1">
+                        <label className="form-check-label" style={{ textAlign: 'left' }} htmlFor="Check1">
                             Remember Me
                         </label>
                     </div>
+                    <br />
                     <button type="submit" className="btn btn-primary">
                         Submit
                     </button>
+                    <br />
+                    <br />
                 </form>
                 <div className="additional-links">
                     <a href="#">Forgot Password?</a> | <Link to="/signup"><a href="#">Sign Up</a> </Link>
@@ -169,15 +172,18 @@ export const Signup = () => {
                             className="form-check-input"
                             id="Check1"
                         />
-                        <label className="form-check-label" htmlFor="Check1">
+                        <label className="form-check-label" style={{ textAlign: 'left' }} htmlFor="Check1">
                             Remember Me
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary">
+                    <br />
+                    <button type="submit" className="btn btn-primary" style={{ marginBottom: '10% !important'}}>
                         Submit
                     </button>
+                    <br />
+                    <br />
                 </form>
-                <div className="additional-links">
+                <div className="additional-links" style={{ marginTop: '2%'}}>
                     <a href="#">Already have an account?</a> | <Link to="/login"><a href="#">Login</a></Link>
                 </div>
             </div>
